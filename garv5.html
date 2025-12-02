@@ -1,0 +1,150 @@
+-<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Notes Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e7f2ff;
+            margin: 0;
+        }
+        header {
+            background-color: #1b4b82;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        main {
+            padding: 15px;
+        }
+        .box {
+            background-color: white;
+            border: 1px solid #c4d7f2;
+            padding: 10px 15px;
+            margin-bottom: 12px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #1b4b82;
+        }
+        .meta {
+            font-size: 13px;
+            color: #555555;
+        }
+        ul {
+            padding-left: 18px;
+        }
+        .tags span {
+            display: inline-block;
+            background-color: #e0edff;
+            border: 1px solid #c4d7f2;
+            padding: 2px 6px;
+            margin: 2px 4px 2px 0;
+            font-size: 12px;
+        }
+        label {
+            display: block;
+            margin-top: 6px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 3px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: auto;
+            margin-top: 8px;
+            background-color: #1b4b82;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tech Notes</h1>
+    <p>Simple blog about programming and technology</p>
+</header>
+
+<main>
+
+    <div class="box">
+        <h2>Categories</h2>
+        <ul>
+            <li>Programming Basics</li>
+            <li>Web Development</li>
+            <li>Data Structures</li>
+            <li>College Tech Tips</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Latest Post: Getting Started with C</h2>
+        <p class="meta">Category: Programming Basics | Tags: C, Beginner, College</p>
+        <p>
+            C is one of the first programming languages many students learn in college.
+            In this post we talk about variables, input-output and simple if-else programs.
+        </p>
+        <p>
+            Once you are comfortable with basic syntax, you can move to loops, arrays
+            and then start simple problem solving.
+        </p>
+        <div class="tags">
+            <span>#C</span>
+            <span>#Beginners</span>
+            <span>#CollegeLife</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Post: HTML for Beginners</h2>
+        <p class="meta">Category: Web Development | Tags: HTML, Frontend</p>
+        <p>
+            HTML is used to create the structure of a web page. You can start with headings,
+            paragraphs, lists and simple links. Later you can add CSS for color and layout.
+        </p>
+        <div class="tags">
+            <span>#HTML</span>
+            <span>#WebDev</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Tags</h2>
+        <div class="tags">
+            <span>#C</span>
+            <span>#HTML</span>
+            <span>#DSA</span>
+            <span>#Projects</span>
+            <span>#CollegeTips</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Leave a Comment</h2>
+        <p>You can write a simple comment about any post.</p>
+
+        <form>
+            <label>Name:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Comment:</label>
+            <textarea rows="4"></textarea>
+
+            <input type="submit" value="Submit Comment">
+        </form>
+
+            </div>
+
+</main>
+
+</body>
+</html>
